@@ -15,23 +15,21 @@
             <h1>Z-Chat App</h1>
         </div>
         <div class="message__area">
-            <div class="incoming message">
-                <h4>Zohaib</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quaerat dolores recusandae labore voluptates facilis soluta iusto fugit unde at?</p>
-            </div>
-            <div class="outgoing message">
-                <h4>Ali</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quaerat dolores recusandae labore voluptates facilis soluta iusto fugit unde at?</p>
-            </div>
 
+           
+           </div>
+           <div class="send">
+            <form action="#" id="send-container">
+                <input type="text" name="messageInp" id="messageInp">
+                <button  id="btn" type="submit">Send</button>
+            </form>
         </div>
-       
-        <div>
+        <!-- <div>
             <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
-        </div>
+        </div> -->
     </section>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/client.js"></script>
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script  defer src="/client.js"></script>
 </body>
 
 </html>

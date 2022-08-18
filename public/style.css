@@ -39,15 +39,36 @@ section.chat__section {
     overflow-y: auto;
     padding-top: 40px;
 }
-textarea {
+#send-container {
+    text-align: center;
+    display: block;
+    margin: auto;
     width: 100%;
+    max-width: 985px;
     border: none;
     padding: 20px;
     font-size: 16px;
     outline: none;
     background: #FBFBFB;
 }
-
+#messageInp{
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 34px;
+}
+.btn{
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 38px;
+    cursor: pointer;
+    padding-bottom: 3px;
+    padding-top: 4px;
+}
+.btn:hover{
+    background-color: rgb(42, 112, 169);
+    
+}
 .message {
     padding: 20px; 
     border-radius: 4px; 
